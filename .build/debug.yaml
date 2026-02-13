@@ -1,0 +1,47 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "App-arm64-apple-macosx15.0-debug.module": ["<App-arm64-apple-macosx15.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<App-arm64-apple-macosx15.0-debug.module>"]
+  "test": ["<App-arm64-apple-macosx15.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/App/ContentView.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/App/LifeCleanApp.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Core/Models/Models.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Design/Theme/Theme.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Home/HomeView.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Items/ItemsView.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Onboarding/OnboardingView.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Search/SearchView.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Settings/SettingsView.swift"]
+    outputs: ["/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/sources"]
+    description: "Write auxiliary file /Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/sources"
+
+  "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Library/Developer/CommandLineTools/usr/bin/swiftc"]
+    outputs: ["/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+
+  "<App-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/ContentView.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/LifeCleanApp.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/Models.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/Theme.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/HomeView.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/ItemsView.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/OnboardingView.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/SearchView.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/SettingsView.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/Modules/App.swiftmodule"]
+    outputs: ["<App-arm64-apple-macosx15.0-debug.module>"]
+
+  "C.App-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/App/ContentView.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/App/LifeCleanApp.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Core/Models/Models.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Design/Theme/Theme.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Home/HomeView.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Items/ItemsView.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Onboarding/OnboardingView.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Search/SearchView.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Settings/SettingsView.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/sources"]
+    outputs: ["/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/ContentView.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/LifeCleanApp.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/Models.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/Theme.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/HomeView.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/ItemsView.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/OnboardingView.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/SearchView.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/SettingsView.swift.o","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/Modules/App.swiftmodule"]
+    description: "Compiling Swift Module 'App' (9 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","App","-emit-dependencies","-emit-module","-emit-module-path","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/Modules/App.swiftmodule","-output-file-map","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/sources","-I","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx10.13","-enable-batch-mode","-index-store-path","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j14","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/App-Swift.h","-swift-version","5","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g","-package-name","life_clean"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Package.swift","/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

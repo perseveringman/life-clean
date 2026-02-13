@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/master.swiftdeps"
+  },
+  "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/App/ContentView.swift": {
+    "dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/ContentView.d",
+    "object": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/ContentView.swift.o",
+    "swiftmodule": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/ContentView.swiftdeps"
+  },
+  "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/App/LifeCleanApp.swift": {
+    "dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/LifeCleanApp.d",
+    "object": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/LifeCleanApp.swift.o",
+    "swiftmodule": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/LifeCleanApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/LifeCleanApp.swiftdeps"
+  },
+  "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Core/Models/Models.swift": {
+    "dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/Models.d",
+    "object": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/Models.swift.o",
+    "swiftmodule": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/Models.swiftdeps"
+  },
+  "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Design/Theme/Theme.swift": {
+    "dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/Theme.d",
+    "object": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/Theme.swift.o",
+    "swiftmodule": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/Theme~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/Theme.swiftdeps"
+  },
+  "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Home/HomeView.swift": {
+    "dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/HomeView.d",
+    "object": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/HomeView.swift.o",
+    "swiftmodule": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/HomeView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/HomeView.swiftdeps"
+  },
+  "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Items/ItemsView.swift": {
+    "dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/ItemsView.d",
+    "object": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/ItemsView.swift.o",
+    "swiftmodule": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/ItemsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/ItemsView.swiftdeps"
+  },
+  "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Onboarding/OnboardingView.swift": {
+    "dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/OnboardingView.d",
+    "object": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/OnboardingView.swift.o",
+    "swiftmodule": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/OnboardingView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/OnboardingView.swiftdeps"
+  },
+  "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Search/SearchView.swift": {
+    "dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/SearchView.d",
+    "object": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/SearchView.swift.o",
+    "swiftmodule": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/SearchView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/SearchView.swiftdeps"
+  },
+  "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/Sources/Features/Settings/SettingsView.swift": {
+    "dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/SettingsView.d",
+    "object": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryanbzhou/Developer/vibe-coding/freedom/life-clean/.build/arm64-apple-macosx/debug/App.build/SettingsView.swiftdeps"
+  }
+}
